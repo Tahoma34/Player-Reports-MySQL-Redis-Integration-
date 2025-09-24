@@ -73,10 +73,5 @@ It’s a clean and modular example for developers looking to integrate external 
 
 ---
 
-## 📜 License
-
-Feel free to use and modify this plugin for learning or server management. Consider crediting the author if reused in public projects.
-
----
 
 
