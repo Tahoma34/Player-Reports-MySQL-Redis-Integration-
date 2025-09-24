@@ -1,4 +1,4 @@
-# Player-Reports-MySQL-Redis-Integration-
+# PlayerReports (MySQL-Redis Integration)
 
 A lightweight and efficient report system plugin for Minecraft servers that uses **MySQL** and optionally **Redis** to handle player reports and track player online status in real time.
 
