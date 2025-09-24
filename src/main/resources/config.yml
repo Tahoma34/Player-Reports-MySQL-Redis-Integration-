@@ -1,0 +1,24 @@
+
+# Имя сервера, которое будет записываться в поле server таблицы reports
+server-name: "grief-34"
+
+# Выбор провайдера онлайн-статуса: "mysql" или "redis"
+# MySQL - не отображает онлайн-статус, он служит
+# как заглушка, если это потребуется
+status-provider: "redis"
+
+# Конфигурация награды
+reward-amount: 100 # Сумма награды для игрока за репорт
+
+mysql:
+  host: "localhost"
+  port: 3306
+  database: "db"
+  user: "name"
+  password: "password"
+
+redis:
+  host: "localhost"
+  port: 6379
+  password: ""
+  database: 0

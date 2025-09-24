@@ -1,0 +1,13 @@
+name: RWReports
+version: '1.0'
+main: org.tahoma.rwreports.RWReports
+Author: "Tahoma34 (_xyd0jnik)"
+api-version: '1.16'
+
+commands:
+  report:
+    description: "Отправить репорт на игрока"
+    usage: "/report <ник> <причина>"
+  reports:
+    description: "Управление списком репортов, а также админ-команды (remove, removeall, reload)"
+    usage: "/reports [remove|removeall|reload]"

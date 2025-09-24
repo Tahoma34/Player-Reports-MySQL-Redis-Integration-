@@ -1,0 +1,63 @@
+report:
+  no-permission: "&6Репорты &7≫ &fУ вас нет прав на использование команды /report."
+  player-offline: "&6Репорты &7≫ &cИгрок не найден на сервере."
+  usage: "&6Репорты &7≫ &fИспользование: /report <игрок> <причина>"
+  success: "&6Репорты &7≫ &fРепорт на игрока &6%player%&f успешно отправлен!"
+  notify-admins: "&6Репорты &7≫ &fНа игрока &c%player%&f пришёл новый репорт."
+  save-error: "&6Репорты &7≫ &fОшибка при сохранении репорта: &c%error%"
+
+reports:
+  no-permission: "&6Репорты &7≫ &fУ вас нет прав на использование команды &c/reports"
+  only-player: "&6Репорты &7≫ &cЭту команду может использовать только игрок."
+  load-error: "&6Репорты &7≫ &cОшибка при чтении общего списка репортов: %error%"
+  last-report-error: "&6Репорты &7≫ &cОшибка при получении последнего репорта для %player%: %error%"
+  delete-success: "&6Репорты &7≫ &fУдалено репортов: &6%count%"
+  delete-fail: "&6Репорты &7≫ &cОшибка при удалении репортов: %error%"
+  not-found: "&7Информация отсутствует"
+  no-reason: "&7Причины нет"
+  no-server: "&7Неизвестно"
+  status-online: "&aОнлайн"
+  status-offline: "&cОффлайн"
+
+  gui:
+    # Название меню
+    title: "&0Активные репорты"
+
+    item-format:
+      # Название: %player% — имя нарушителя
+      name: "&fЖалоба на: &6%player%"
+      # Шаблон лора.
+      lore:
+        - ""
+        - "&f Всего репортов: &c%count%"
+        - "&f Последний репорт от: &e%reporter%"
+        - "&f Причина: &e%reason%"
+        - ""
+        - "&f Сервер: &7%server%"
+        - "&f Статус: &7%status%"
+        - ""
+        - "&a[ПКМ] &7- &fПросмотр действий"
+
+    additional:
+      title: "&0Нарушитель: &0%player%"
+      load-error: "&cОшибка при загрузке последних репортов: %error%"
+      reward-issued: "&aНаграда успешно выдана игроку %reporter%"
+      item-name: "&fРепорт: &6№%index%"
+      item-lore:
+        - ""
+        - "&f От: &a%reporter%"
+        - "&f Причина: &e%reason%"
+        - "&f Сервер: &e%server%"
+        - "&f Время: &e%timestamp%"
+        - ""
+
+admin:
+  no-permission: "&6Репорты &7≫ &cУ вас нет прав на использование административных команд /reports <remove|removeall|reload>."
+  usage: "&6Репорты &7≫ &cИспользование: /reports <remove|removeall|reload> [ник]"
+  remove-usage: "&6Репорты &7≫ &cИспользование: /reports remove <ник>"
+  remove-success: "&6Репорты &7≫ &aУдалено %count% репорт(ов) для игрока &f%player%"
+  remove-error: "&6Репорты &7≫ &cОшибка при удалении репортов: %error%"
+  removeall-success: "&6Репорты &7≫ &aПолностью очищено %count% репорт(ов)."
+  removeall-error: "&6Репорты &7≫ &cОшибка при удалении всех репортов: %error%"
+  reload-log: "&6Репорты &7≫ Перезагрузка config.yml и переподключение к базе..."
+  reload-success: "&6Репорты &7≫ &aКонфиг и соединение с базой успешно перезагружены!"
